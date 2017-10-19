@@ -1,2 +1,9 @@
-Hive利用类SQL(HiveQL)来加快一般的MapReduce的开发过程。UDF--user defined function，鉴于Hive支持的HQL有限，如果要实现复杂的功能，就要通过
-自己定义函数来帮助实现。
+使用Python实现Hive的UDF。流程分为以下两部分：
+
+* 1、写一个Python脚本
+
+用Python脚本实现想要实现的功能
+  
+* 2、调用Python的UDF
+
+在hive中调用Python脚本对数据进行处理
