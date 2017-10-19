@@ -2,6 +2,7 @@
 
 import sys
 
+# \u5927\u5b66 是大学字段的utf-8形式
 for line in sys.stdin:
     order_sn, delivery_address = line.strip().split("\t")
 
